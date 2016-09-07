@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author xmlns="urn:schemas-microsoft-com:office:office"></Author>
+<Company xmlns="urn:schemas-microsoft-com:office:office"></Company>
+<Version xmlns="urn:schemas-microsoft-com:office:office">10.4219</Version>
+</DocumentProperties>
+<OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+<DownloadComponents xmlns="urn:schemas-microsoft-com:office:office" />
+<LocationOfComponents xmlns="urn:schemas-microsoft-com:office:office" HRef="file:///\\phlfsnt01\DOWNLOAD\OfficeXPSrc\" />
+</OfficeDocumentSettings>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight xmlns="urn:schemas-microsoft-com:office:excel">6000</WindowHeight>
+<WindowWidth xmlns="urn:schemas-microsoft-com:office:excel">10000</WindowWidth>
+<WindowTopX xmlns="urn:schemas-microsoft-com:office:excel">0</WindowTopX>
+<WindowTopY xmlns="urn:schemas-microsoft-com:office:excel">60</WindowTopY>
+<ProtectStructure xmlns="urn:schemas-microsoft-com:office:excel">False</ProtectStructure>
+<ProtectWindows xmlns="urn:schemas-microsoft-com:office:excel">False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom" />
+<Borders />
+<Font />
+<Interior />
+<NumberFormat />
+<Protection />
+</Style>
+<Style ss:ID="qrlPatvirtForm" >
+<ss:Font ss:FontName="Arial" ss:Size="7" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlCust" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlTitle" >
+<ss:Font ss:FontName="Arial" ss:Size="14" ss:Color="#FF0000" />
+</Style>
+<Style ss:ID="qrlData" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="QRLabel1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel9" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel10" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel11" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRExpr1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPrUzMen" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrSumaViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrPavadinimas" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="QRLabel3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlVisoPr" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlIsUzMen" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlIsPavadinimas" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlIsSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlIsSumaViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="QRLabel4" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlVisoIs" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel2" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel5" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlSumaIsmokejimui" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlImonLP" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlImonLA" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel26" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen27SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen27Sodra27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl27Viso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel34" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen3SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen3Sodra3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl3Viso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel32" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen1SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlMen1SodraNel" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel8" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl1Viso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel30" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel12" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRDBText1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPrIsUzMen" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" />
+</Style>
+<Style ss:ID="qrlPrIsSumaViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" />
+</Style>
+<Style ss:ID="qrlPrIsPavadinimas" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" />
+</Style>
+<Style ss:ID="qrlPrIsSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" />
+</Style>
+<Style ss:ID="QRLabel17" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel13" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel16" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPIsskaiciuotaSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPSumaIsmokejimui" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlParLA" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel31" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlParLP" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPar27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen27SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen27Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlP27Viso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPar3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen3SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen3Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel19" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl3PViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPar1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen1SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPMen1Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel20" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlPViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel15" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl1PViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#800080" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel7" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRDBText19" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlSpausdinta" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" />
+</Style>
+<Style ss:ID="QRSysData2" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000080" />
+</Style>
+<Style ss:ID="qrlPrIsUzMenFS" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrIsSumaVisoFS" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrIsUzMenFSPavadinimas" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="qrlPrIsUzMenFSSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" />
+</Style>
+<Style ss:ID="QRLabel22" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel23" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel24" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSIsskaiciuotaSuma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSSumaIsmokejimui" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSLA" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel33" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSLP" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFS27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen27" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen27SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen27Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel29" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl27FSViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFS3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen3" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen3SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen3Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl3FSViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel28" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFS1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen1" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen1SodraSkaiciuota" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSMen1Suma" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel35" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrlFSViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="QRLabel18" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+<Style ss:ID="qrl1FSViso" >
+<ss:Font ss:FontName="Arial" ss:Size="10" ss:Color="#000000" ss:Bold="1" />
+</Style>
+</Styles>
+<Worksheet ss:Name="Sheet 1">
+<Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="63" x:FullColumns="1" x:FullRows="1">
+   <Row>
+    <Cell ss:StyleID="qrlCust" ><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell ss:StyleID="qrlTitle" ><Data ss:Type="String">Сводка зарплаты</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPatvirtForm" ><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlData" ><Data ss:Type="String">июль 2014 г. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRExpr1" ><Data ss:Type="String">ИФ - 0  Пар - 0   Учреждение  12345678   Demo BY MANO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel1" ><Data ss:Type="String">Название начисления/удержания</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel9" ><Data ss:Type="String">За месяц</Data></Cell>
+    <Cell ss:StyleID="QRLabel10" ><Data ss:Type="String">Сумма</Data></Cell>
+    <Cell ss:StyleID="QRLabel11" ><Data ss:Type="String">Сумма всего</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Подарок</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">  232 239</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Командировки(отпускные)</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">  232 239</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">  226 191</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Командировочные расходы(начисление)</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">  226 191</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Оплата ночных часов работы</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">  75 000</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Очередное начисление</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">  75 000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String"> 12 000 000</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Основная зарплата</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String"> 12 000 000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Пособ.на перв.реб. до 3-х лет в р-ре 100</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">  733 300</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Ребенок инвалид старше 3-х лет 70проц</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">  733 300</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Допризывная подготовка</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlPrSumaViso" ><Data ss:Type="String">  79 152</Data></Cell>
+    <Cell ss:StyleID="qrlPrPavadinimas" ><Data ss:Type="String">Учебный оплачиваемый отпуск</Data></Cell>
+    <Cell ss:StyleID="qrlPrSuma" ><Data ss:Type="String">  79 152</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel3" ><Data ss:Type="String">Всего начислено:</Data></Cell>
+    <Cell ss:StyleID="qrlVisoPr" ><Data ss:Type="String"> 13 345 882</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlIsUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlIsPavadinimas" ><Data ss:Type="String">Алименты</Data></Cell>
+    <Cell ss:StyleID="qrlIsSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlIsUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlIsSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlIsPavadinimas" ><Data ss:Type="String">Кредиты</Data></Cell>
+    <Cell ss:StyleID="qrlIsSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlIsUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlIsPavadinimas" ><Data ss:Type="String">Налог на доходы</Data></Cell>
+    <Cell ss:StyleID="qrlIsSuma" ><Data ss:Type="String"> 1 449 000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlIsUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlIsSumaViso" ><Data ss:Type="String"> 1 457 400</Data></Cell>
+    <Cell ss:StyleID="qrlIsPavadinimas" ><Data ss:Type="String">Налог на доходы (надбавка)</Data></Cell>
+    <Cell ss:StyleID="qrlIsSuma" ><Data ss:Type="String">  8 400</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlIsUzMen" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlIsSumaViso" ><Data ss:Type="String">  25 418</Data></Cell>
+    <Cell ss:StyleID="qrlIsPavadinimas" ><Data ss:Type="String">Профсоюзные взносы</Data></Cell>
+    <Cell ss:StyleID="qrlIsSuma" ><Data ss:Type="String">  25 418</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel4" ><Data ss:Type="String">Всего удержано:</Data></Cell>
+    <Cell ss:StyleID="qrlVisoIs" ><Data ss:Type="String"> 1 482 818</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel2" ><Data ss:Type="String">Сумма к выплате:</Data></Cell>
+    <Cell ss:StyleID="qrlSumaIsmokejimui" ><Data ss:Type="String"> 11 863 064</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel5" ><Data ss:Type="String">Остаток  прош. мес.:</Data></Cell>
+    <Cell ss:StyleID="qrlImonLP" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlImonLA" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel26" ><Data ss:Type="String">Остаток на след.месяц:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlMen27" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrl27" ><Data ss:Type="String">27% с:</Data></Cell>
+    <Cell ss:StyleID="qrlMen27SodraSkaiciuota" ><Data ss:Type="String"> 12 612 582</Data></Cell>
+    <Cell ss:StyleID="qrlMen27Sodra27" ><Data ss:Type="String">  75 675</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl27Viso" ><Data ss:Type="String">  75 675</Data></Cell>
+    <Cell ss:StyleID="QRLabel34" ><Data ss:Type="String">Всего с 27%:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl3" ><Data ss:Type="String">3% с:</Data></Cell>
+    <Cell ss:StyleID="qrlMen3" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlMen3SodraSkaiciuota" ><Data ss:Type="String"> 12 612 582</Data></Cell>
+    <Cell ss:StyleID="qrlMen3Sodra3" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl3Viso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel32" ><Data ss:Type="String">Всего с 3%:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl1" ><Data ss:Type="String">1% от:</Data></Cell>
+    <Cell ss:StyleID="qrlMen1" ><Data ss:Type="String">07</Data></Cell>
+    <Cell ss:StyleID="qrlMen1SodraSkaiciuota" ><Data ss:Type="String"> 12 612 582</Data></Cell>
+    <Cell ss:StyleID="qrlMen1SodraNel" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl1Viso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel30" ><Data ss:Type="String">Всего с 1%:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel8" ><Data ss:Type="String">Всего :</Data></Cell>
+    <Cell ss:StyleID="qrlViso" ><Data ss:Type="String"> 12 612 582</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel12" ><Data ss:Type="String">Всего по параграфу</Data></Cell>
+    <Cell ss:StyleID="QRDBText1" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrIsUzMen" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPrIsSumaViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrIsPavadinimas" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPrIsSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel17" ><Data ss:Type="String">Всего удержано:</Data></Cell>
+    <Cell ss:StyleID="qrlPIsskaiciuotaSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel13" ><Data ss:Type="String">Сумма к выплате:</Data></Cell>
+    <Cell ss:StyleID="qrlPSumaIsmokejimui" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel16" ><Data ss:Type="String">Остаток  прош. мес.:</Data></Cell>
+    <Cell ss:StyleID="qrlParLA" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel31" ><Data ss:Type="String">Остаток на след.месяц:</Data></Cell>
+    <Cell ss:StyleID="qrlParLP" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPar27" ><Data ss:Type="String">27% с:</Data></Cell>
+    <Cell ss:StyleID="qrlPMen27" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPMen27SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPMen27Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel27" ><Data ss:Type="String">Всего с 27%:</Data></Cell>
+    <Cell ss:StyleID="qrlP27Viso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPar3" ><Data ss:Type="String">3% с:</Data></Cell>
+    <Cell ss:StyleID="qrlPMen3" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPMen3SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPMen3Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel19" ><Data ss:Type="String">Всего с 3%:</Data></Cell>
+    <Cell ss:StyleID="qrl3PViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPar1" ><Data ss:Type="String">1% от:</Data></Cell>
+    <Cell ss:StyleID="qrlPMen1" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPMen1SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPMen1Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel15" ><Data ss:Type="String">Всего с 1%:</Data></Cell>
+    <Cell ss:StyleID="qrl1PViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel20" ><Data ss:Type="String">Всего :</Data></Cell>
+    <Cell ss:StyleID="qrlPViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel7" ><Data ss:Type="String">Всего по ист.финанс.</Data></Cell>
+    <Cell ss:StyleID="QRDBText19" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRSysData2" ><Data ss:Type="String">Страница: 1</Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell ss:StyleID="qrlSpausdinta" ><Data ss:Type="String">Напечатано: 08.03.2016</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlCust" ><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell ss:StyleID="qrlTitle" ><Data ss:Type="String">Сводка зарплаты</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPatvirtForm" ><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlData" ><Data ss:Type="String">июль 2014 г. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlPrIsUzMenFS" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPrIsSumaVisoFS" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlPrIsUzMenFSPavadinimas" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlPrIsUzMenFSSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel22" ><Data ss:Type="String">Всего удержано:</Data></Cell>
+    <Cell ss:StyleID="qrlFSIsskaiciuotaSuma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel23" ><Data ss:Type="String">Сумма к выплате:</Data></Cell>
+    <Cell ss:StyleID="qrlFSSumaIsmokejimui" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel24" ><Data ss:Type="String">Остаток  прош. мес.:</Data></Cell>
+    <Cell ss:StyleID="qrlFSLA" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel33" ><Data ss:Type="String">Остаток на след.месяц:</Data></Cell>
+    <Cell ss:StyleID="qrlFSLP" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlFS27" ><Data ss:Type="String">27% с:</Data></Cell>
+    <Cell ss:StyleID="qrlFSMen27" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlFSMen27SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlFSMen27Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel29" ><Data ss:Type="String">Всего с 27%:</Data></Cell>
+    <Cell ss:StyleID="qrl27FSViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlFS3" ><Data ss:Type="String">3% с:</Data></Cell>
+    <Cell ss:StyleID="qrlFSMen3" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlFSMen3SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlFSMen3Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrl3FSViso" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="QRLabel28" ><Data ss:Type="String">Всего с 3%:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="qrlFS1" ><Data ss:Type="String">1% от:</Data></Cell>
+    <Cell ss:StyleID="qrlFSMen1" ><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="qrlFSMen1SodraSkaiciuota" ><Data ss:Type="String">   </Data></Cell>
+    <Cell ss:StyleID="qrlFSMen1Suma" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel18" ><Data ss:Type="String">Всего с 1%:</Data></Cell>
+    <Cell ss:StyleID="qrl1FSViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRLabel35" ><Data ss:Type="String">Всего :</Data></Cell>
+    <Cell ss:StyleID="qrlFSViso" ><Data ss:Type="String">   </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="QRSysData2" ><Data ss:Type="String">Страница: 2</Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+    <Cell ss:StyleID="qrlSpausdinta" ><Data ss:Type="String">Напечатано: 08.03.2016</Data></Cell>
+   </Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<Print xmlns="urn:schemas-microsoft-com:office:excel">
+<ValidPrinterInfo xmlns="urn:schemas-microsoft-com:office:excel" />
+<HorizontalResolution xmlns="urn:schemas-microsoft-com:office:excel">1200</HorizontalResolution>
+<VerticalResolution xmlns="urn:schemas-microsoft-com:office:excel">1200</VerticalResolution>
+</Print>
+<ProtectObjects xmlns="urn:schemas-microsoft-com:office:excel">False</ProtectObjects>
+<ProtectScenarios xmlns="urn:schemas-microsoft-com:office:excel">False</ProtectScenarios>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>
